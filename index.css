@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 body{
 	margin: 0;
 	background-color: #eee;
@@ -39,4 +42,18 @@ p {
 .input_fields{
 	border: 1px solid blue;
 	width: 60%;
+	padding: 10px;
+	display: flex;
+}
+input{
+	flex: 1;
+	
+	
+}
+.priority_color{
+	border: 1px solid blue;
+	width: 60%;
+	padding: 10px;
+	display: flex;
+	text-align: center;
 }
